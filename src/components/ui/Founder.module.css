@@ -1,0 +1,21 @@
+/* Founder Section */
+.founder {
+  text-align: center;
+  padding: 5% 15% 7%;
+}
+
+.pricing-heading {
+  font-weight: 700;
+}
+.cent {
+  text-align: center;
+}
+.founderName {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.pricingColumn {
+  text-align: left;
+  padding: 3% 2%;
+}

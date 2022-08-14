@@ -1,0 +1,62 @@
+/* About us cards */
+.about {
+  text-align: left;
+  padding: 8% 15% 7%;
+}
+
+.pricingHeading {
+  font-weight: 700;
+}
+
+.aboutHead {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.pricingColumn {
+  padding: 3% 2%;
+}
+
+.follow {
+  padding-top: 6%;
+}
+
+/* About us media query */
+@media (max-width: 950px) {
+  .about {
+    padding-top: 10%;
+  }
+}
+@media (max-width: 790px) {
+  .about {
+    padding-top: 12%;
+  }
+}
+@media (max-width: 770px) {
+  .about {
+    padding-top: 17%;
+  }
+}
+
+@media (max-width: 650px) {
+  .about {
+    padding-top: 20%;
+  }
+}
+@media (max-width: 600px) {
+  .about {
+    padding-top: 22%;
+  }
+}
+@media (max-width: 530px) {
+  .about {
+    padding-top: 25%;
+  }
+}
+
+@media (max-width: 450px) {
+  .about {
+    padding-top: 28%;
+  }
+}

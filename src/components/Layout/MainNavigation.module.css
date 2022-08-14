@@ -1,0 +1,11 @@
+.firm {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navlogo {
+  width: 6%;
+}
+.cursor {
+  cursor: pointer;
+}

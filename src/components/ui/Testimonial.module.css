@@ -1,0 +1,20 @@
+/* Testimonials */
+.testimonials {
+  background-color: #1cac78;
+  margin-top: 2%;
+  color: #fff;
+}
+
+.testimonialIext {
+  font-weight: 700;
+}
+
+.carouselItem {
+  padding: 7% 15%;
+}
+
+.testimonialImage {
+  width: 20%;
+  border-radius: 100%;
+  padding: 2%;
+}
