@@ -20,7 +20,7 @@ function ImgDiv() {
                 <div className="dropdowConten">
 
                 <a
-                    href="https://wa.me/qr/S2J6CUTQSNPRG1/"
+                    href="https://wa.me/qr/S2J6CUTQSNPRG1"
                     rel="noreferrer"
                     target="_blank"
                   >
