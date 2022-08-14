@@ -1,0 +1,45 @@
+.navbar-brand{
+  font-family: Ubuntu;
+  font-weight:  bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Manual DropDown button: 
+   Handles Drop down Button Since React doesn't want to allow my 
+   Drop down item links click, Tch.. rubbish. */
+
+.power {
+  font-weight: 700;
+}
+
+.droppeddown {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin-top: 5%;
+}
+.dropdowConten {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.droppeddown:hover .dropdowConten {
+  background-color: #f8f9fa;
+  display: block;
+}
+
+.stope {
+  color: #000000e6;
+  display: block;
+}
+
+.stope:hover {
+  color: #fff;
+  background-color: #1cac78;
+}
