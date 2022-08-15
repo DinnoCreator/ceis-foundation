@@ -13,14 +13,14 @@ function ImgDiv() {
             </h1>
 
             <div className="cent">
-              <div className="droppeddown">
+              {/* <div className="droppeddown">
                 <button className="btn btn-success downloadButton btn-lg dropdown-toggle power">
                   Contact Us{" "}
                 </button>
                 <div className="dropdowConten">
 
                 <a
-                    href="https://wa.me/qr/S2J6CUTQSNPRG1"
+                    href="https://wa.me/qr/S2J6CUTQSNPRG1/"
                     rel="noreferrer"
                     target="_blank"
                   >
@@ -46,7 +46,36 @@ function ImgDiv() {
                   
 
                 </div>
-              </div>
+              </div> */}
+              <button
+                className={`btn btn-success btn-lg dropdown-toggle ${classes.downloadButton}`}
+                id="dropdownUser2"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span>Contact Us </span>
+                <ul className="dropdown-menu" aria-labelledby="dropdownUser2">
+                  <li>
+                    <a
+                      className="dropdown-item"
+                      href="mailto:theceisfoundation@gmail.com"
+                    >
+                      <i className="fa-solid fa-envelope"></i>
+                      Email Us
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                     href="https://wa.me/qr/S2J6CUTQSNPRG1"
+                      className="dropdown-item"
+                     
+                    >
+                      <i className="fa-brands fa-whatsapp"></i>
+                      WhatsApp
+                    </a>
+                  </li>
+                </ul>
+              </button>
             </div>
           </div>
         </div>
