@@ -13,69 +13,38 @@ function ImgDiv() {
             </h1>
 
             <div className="cent">
-              {/* <div className="droppeddown">
-                <button className="btn btn-success downloadButton btn-lg dropdown-toggle power">
-                  Contact Us{" "}
-                </button>
-                <div className="dropdowConten">
+               <div className="droppeddown">
+                 <button className="btn btn-success downloadButton btn-lg dropdown-toggle power">
+                   Contact Us{" "}
+                 </button>
+                 <div className="dropdowConten">
 
-                <a
-                    href="https://wa.me/qr/S2J6CUTQSNPRG1/"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    <span className="stope">
-                      <i className="fa-brands fa-whatsapp"></i> WhatsApp
-                    </span>
-                  </a>
+                 <a
+                     href="https://wa.me/qr/S2J6CUTQSNPRG1/"
+                     rel="noreferrer"
+                     target="_blank"
+                   >
+                     <span className="stope">
+                       <i className="fa-brands fa-whatsapp"></i> WhatsApp
+                     </span>
+                   </a>
 
-                  <a href="mailto:theceisfoundation@gmail.com?subject=Contacting%20CEIS-Foundation&body=Good%20day%20CEIS-Foundation.">
-                    <span className="stope">
-                    <span style={{"marginRight": "1%", "marginLeft": "-7%"}}><i className="fa-solid fa-envelope"></i> </span>
-                       Email Us
-                    </span>
-                  </a>
+                   <a href="mailto:theceisfoundation@gmail.com?subject=Contacting%20CEIS-Foundation&body=Good%20day%20CEIS-Foundation.">
+                     <span className="stope">
+                     <span style={{"marginRight": "1%", "marginLeft": "-7%"}}><i className="fa-solid fa-envelope"></i> </span>
+                        Email Us
+                     </span>
+                   </a>
 
-                  <a href="tel:+2348129245801">
-                    <span className="stope">
-                    <span style={{"marginRight": "3%", "marginLeft": "-16%"}}><i className="fa-solid fa-phone"></i></span>
-                      Phone
-                    </span>
-                  </a>
-                  
-                  
-
-                </div>
-              </div> */}
-              <button
-                className={`btn btn-success btn-lg dropdown-toggle ${classes.downloadButton}`}
-                id="dropdownUser2"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <span>Contact Us </span>
-                <ul className="dropdown-menu" aria-labelledby="dropdownUser2">
-                  <li>
-                    <a
-                      className="dropdown-item"
-                      href="mailto:theceisfoundation@gmail.com"
-                    >
-                      <i className="fa-solid fa-envelope"></i>
-                      Email Us
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                     href="https://wa.me/qr/S2J6CUTQSNPRG1"
-                      className="dropdown-item"
-                     
-                    >
-                      <i className="fa-brands fa-whatsapp"></i>
-                      WhatsApp
-                    </a>
-                  </li>
-                </ul>
-              </button>
+                   <a href="tel:+2348129245801">
+                     <span className="stope">
+                     <span style={{"marginRight": "3%", "marginLeft": "-16%"}}><i className="fa-solid fa-phone"></i></span>
+                       Phone
+                     </span>
+                   </a>
+                 
+                 </div>
+               </div>
             </div>
           </div>
         </div>
