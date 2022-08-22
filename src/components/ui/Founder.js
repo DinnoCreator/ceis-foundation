@@ -125,6 +125,8 @@ function Founder() {
               State having attended the then prestigious Methodist boys high
               school, Oron from 1983-1989.
             </p>
+            
+            {readMore && extraContent}
 
             <button
               className="btn btn-success"
@@ -134,7 +136,7 @@ function Founder() {
             >
               {linkName}
             </button>
-            {readMore && extraContent}
+            
           </div>
         </div>
       </div>
