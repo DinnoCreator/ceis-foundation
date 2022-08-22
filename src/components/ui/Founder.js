@@ -8,7 +8,6 @@ function Founder() {
   const extraContent = (
     <div>
       <span className="extra-content">
-        <br />
 
         <p>
           In 1985, comrade Ita Effanga lost his father while in Jss2. A
